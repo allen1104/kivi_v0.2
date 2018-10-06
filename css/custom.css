@@ -268,7 +268,7 @@ background: linear-gradient(120deg, #7b4397 , #dc2430); /* W3C, IE 10+/ Edge, Fi
 
 
 /*-------------- Feature section --------------*/
-#todo .feature-thumb {
+.feature-thumb {
   background-color: #ffffff;
   position: relative;
   padding: 40px;
@@ -276,7 +276,7 @@ background: linear-gradient(120deg, #7b4397 , #dc2430); /* W3C, IE 10+/ Edge, Fi
   text-align: center;
     box-shadow: 0 0 21px rgba(0, 0, 0, 0.14);
 }
-#todo .feature-icon {
+.feature-icon {
   
   width: 85px;
   height: 85px;
@@ -723,8 +723,27 @@ footer .love-text{
   footer {text-align: center;}
 
 }
-.about{
-  display: block;
-  font-size: 16px;
-  padding: 4em;
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* Button 1c */
+.btn-1c:after {
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ff7200;
+}
+.btn-1c:hover,
+.btn-1c:active {
+  color: #fff;
+}
+.btn-1c:hover:after,
+.btn-1c:active:after {
+  width: 100%;
 }
