@@ -8,8 +8,12 @@
 
 #第三步：在node命令行下，输入 npm install http-server -g，安装成功后
 
-#第四步：进入你的文件目录，输入http-server
+#第四步：进入你的文件目录，输入http-server -p 80
 
-#显示上图，在浏览器输入 http://127.0.0.1:8088 ，即可以显示你的文件目录里的index.html的网页文件。
+#显示上图，在浏览器输入 http://127.0.0.1:80 ，即可以显示你的文件目录里的index.html的网页文件。
 
-#http://127.0.0.1:8000
+#http://127.0.0.1:80
+
+#rm -rf /usr/kiwiAlliance
+#git clone git@github.com:allen1104/kivi_v0.2.git
+#https://github.com/allen1104/kivi_v0.2.git
