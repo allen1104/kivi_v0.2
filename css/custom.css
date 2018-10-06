@@ -723,3 +723,8 @@ footer .love-text{
   footer {text-align: center;}
 
 }
+.about{
+  display: block;
+  font-size: 16px;
+  padding: 4em;
+}
